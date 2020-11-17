@@ -53,6 +53,14 @@ body {
   padding: 30px 0 !important;
 }
 
+.nav-link {
+  color: rgb(20, 12, 64) !important;
+}
+
+.nav-link:hover {
+  color: rgb(159, 120, 255) !important;
+}
+
 .navbar .nav-item {
   padding-left: 20px !important;
 }
@@ -67,6 +75,12 @@ body {
 
 .dropdown:hover .dropdown-menu {
   display: block !important;
+}
+
+.search-nav {
+  color: #a47eff !important;
+  background-color: #f6f8fe;
+  margin-left: 1rem;
 }
 
 .fas {
