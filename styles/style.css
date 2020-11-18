@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: #f8f9fa;
+  /* background: #f8f9fa; */
 }
 
 body {
@@ -77,24 +77,30 @@ body {
   display: block !important;
 }
 
-.search-nav {
-  color: #a47eff !important;
-  background-color: #f6f8fe;
-  margin-left: 1rem;
+.fab {
+  border: 1px solid #1d2547;
+  border-radius: 50% !important;
+  padding: 10px;
 }
 
 .fas {
-  padding: 5px;
+  color: #1d2547;
+  background-color: #e3e4ee;
+  padding: 10px;
+  border-radius: 50%;
 }
-
 .fa-shopping-bag {
   border: 1px solid;
   border-radius: 50px !important;
-  width: 50px;
+  width: 63px;
   height: 35px;
   padding-bottom: 2px !important;
+  background: var(--lilac);
 }
 
+#nav-btn {
+  background: transparent;
+}
 /* Carousel */
 
 .carousel-container {
@@ -142,15 +148,6 @@ body {
   font-size: 60px;
 }
 
-/* cards */
-/* .cards {
-  position: relative;
-}
-
-.active {
-  position: absolute;
-  top: 40%;
-} */
 .checked {
   color: orange;
   font-size: 20px;
@@ -230,3 +227,55 @@ body {
 }
 
 /* footer */
+#footer {
+  background: #1d2547;
+  padding-bottom: 10px;
+}
+
+#footer h1 {
+  font-size: 20px;
+  color: white;
+  font-family: "Cinzel", sans-serif;
+}
+
+#footer h3 {
+  color: white;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+#footer .card-links a {
+  color: #c2c5db;
+  font-size: 14px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+#footer .card-text {
+  line-height: 24px;
+  color: #c2c5db;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#footer .footer-text {
+  color: #c2c5db;
+  font-size: 14px;
+}
+
+#footer .fa-heart,
+#footer span {
+  color: var(--lilac);
+}
+
+#footer .fab {
+  border: 1px solid#fff;
+  border-radius: 50% !important;
+  padding: 10px;
+  color: white;
+}
+#footer .fa-facebook-f {
+  padding-left: 12px !important;
+  padding-right: 12px !important;
+}
