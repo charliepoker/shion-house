@@ -92,10 +92,11 @@ body {
 .fa-shopping-bag {
   border: 1px solid;
   border-radius: 50px !important;
-  width: 63px;
+  width: 70px;
   height: 35px;
   padding-bottom: 2px !important;
   background: var(--lilac);
+  color: #e3e4ee;
 }
 
 #nav-btn {
@@ -153,6 +154,7 @@ body {
   font-size: 20px;
 }
 
+/* cards */
 .card-link {
   color: #140c40;
   font-family: "Poppins", sans-serif;
@@ -165,7 +167,21 @@ body {
   font-weight: 500;
 }
 
+.main-card .card-body {
+  position: relative;
+}
+
+.main-card .card-text {
+  position: absolute;
+
+  font-size: 30px;
+  font-family: "Cinzel", serif;
+  background-color: rgba(29, 37, 71, 0.5);
+  color: #ffffff;
+}
+
 /* Banner */
+
 .banner-container {
   position: relative;
 }
